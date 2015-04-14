@@ -1,5 +1,5 @@
 <?php
-require_once('calculatortest.php');
+require_once('calculator.php');
 
 class CalcTest extends calc
 {
