@@ -1,5 +1,5 @@
 <?php
-class CalcTest extends PHPUnit_Framework_TestCase
+class CalcTest extends Calculator
 {
     public function calc($number1, $number2, $result)
     {
