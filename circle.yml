@@ -4,4 +4,4 @@ machine:
 
 test:
   override:
-    - php caculatortest.php --unit-tests
+    - php calculatortest.php --unit-tests
