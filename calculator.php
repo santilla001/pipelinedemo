@@ -5,7 +5,7 @@
 $page = $_GET['page']; 
 
 // Defining the "calc" class 
-class calc2 { 
+class calc { 
      var $number1; 
      var $number2; 
 
