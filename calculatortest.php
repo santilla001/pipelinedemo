@@ -1,7 +1,7 @@
 <?php
 require_once('calculatortest.php')
-class CalcTest extends calc
-{
+//class CalcTest extends calc
+//{
     public function add($number1, $number2)
     {
         $this->assertEquals($number1 + $number2);
@@ -16,5 +16,5 @@ class CalcTest extends calc
           array(1, 1)
         );
     }
-}
+//}
 ?>
