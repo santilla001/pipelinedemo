@@ -8,7 +8,7 @@ $page = $_GET['page'];
 class calc { 
      var $number1; 
      var $number2; 
-
+/*
           function add($number1,$number2) 
           { 
                    $result =$number1 + $number2; 
@@ -16,7 +16,7 @@ class calc {
                     echo("$number1 + $number2 = $result"); 
                     exit; 
            } 
-
+*/
           function subtract($number1,$number2) 
           { 
                    $result =$number1 - $number2; 
