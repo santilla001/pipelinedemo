@@ -4,5 +4,5 @@ machine:
 
  test:
    override:
--    - php test/add_calc_test.php --unit-tests
-+    - php test/sub_calc_test.php --unit-tests
+    - php test/add_calc_test.php --unit-tests
+    - php test/sub_calc_test.php --unit-tests
