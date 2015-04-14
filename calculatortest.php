@@ -1,18 +1,19 @@
 <?php
-class CalcTest extends Calculator
+require_once('calculatortest.php')
+class CalcTest extends calc
 {
-    public function calc($number1, $number2, $result)
+    public function add($number1, $number2)
     {
-        $this->assertEquals($result, $number1 + $number2);
+        $this->assertEquals($number1 + $number2);
     }
 
     public function additionProvider()
     {
         return array(
-          array(0, 0, 0),
-          array(0, 1, 1),
-          array(1, 0, 1),
-          array(1, 1, 3)
+          array(0, 0),
+          array(0, 1),
+          array(1, 0),
+          array(1, 1)
         );
     }
 }
