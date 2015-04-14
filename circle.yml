@@ -1,7 +1,3 @@
-dependencies:
-  post:
-    - python ./install-packages
-
 machine:
   php:
     version: 5.4.5
