@@ -1,16 +1,14 @@
 <?php
-require_once('calculator.php');
-
-class CalcTest extends calc
+class Calculator
 {
-    var $number1 = 1;
-    var $number2 = 2;
-    
-    public function add($number1, $number2)
+    /**
+     * @assert (0, 0) == 0
+     * @assert (0, 1) == 1
+     * @assert (1, 0) == 1
+     * @assert (1, 1) == 2
+     */
+    public function add($a, $b)
     {
-        $this->assertEquals($number1 + $number2);
-        echo("$number1 + $number2 = $this");
+        return $a + $b;
     }
-    
 }
-?>
