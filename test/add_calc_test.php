@@ -1,12 +1,12 @@
 <?php
 require_once('calculator.php');
-class CalcTest extends calc
+class AddTest extends calc
 {
     public function TestAdd()
     {
       	$calc = new calc();
-	$result = $calc->add(2, 2);
-	$this->assertEquals(4, $result);
+	$result = $calc->add(5,7 );
+	$this->assertEquals(12, $result);
     }
 }
 ?>
