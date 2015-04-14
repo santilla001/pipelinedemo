@@ -1,0 +1,12 @@
+--TEST--
+calc() function - A basic test to see if it works. :)
+--FILE--
+<?php
+include 'calculator.php'; // might need to adjust path if not in the same dir
+$number1 = 1;
+$number1 = 2;
+$oper = 'add';
+var_dump(calc($number1,$number2,$oper));
+?>
+--EXPECT--
+number(3)
