@@ -1,0 +1,8 @@
+<phpunit>
+  <testsuites>
+    <testsuite name="Calculator">
+      <file>test/add_calc_test.php</file>
+      <file>test/subtract_calc_test.php</file>
+    </testsuite>
+  </testsuites>
+</phpunit>
