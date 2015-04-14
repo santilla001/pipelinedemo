@@ -42,6 +42,7 @@ class calc {
            } 
 } 
 $calc = new calc(); 
+?>
 
 <TITLE>PHP Calculator</TITLE> 
 <form name="calc_form" action="?page=calc" method="POST"> 
@@ -50,6 +51,9 @@ Number 2: <input type=text name=value2><br>
 Operation: <input type=radio name=oper value="add">Addition <input type=radio name=oper value="subtract">Subtraction <input type=radio name=oper value="divide">Division <input type=radio name=oper value="multiply">Multiplication</input><br> 
 <input type=submit value="Calculate"> 
 </form> 
+
+<?php
+
 
 if($page == "calc"){ 
 $number1 = $_POST['value1']; 
